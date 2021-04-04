@@ -47,7 +47,6 @@ section img {
     object-fit: cover;
     pointer-events: none;
 }
-
 #text {
     position: relative;
     color: #fff;
@@ -63,5 +62,10 @@ section img {
 @media screen and (max-width: 550px) {
     #text {
         font-size: 4em;
+    }
+    #moon{
+        object-fit: contain;
+        width: 80%;
+        top: -2%;
     }
 }
